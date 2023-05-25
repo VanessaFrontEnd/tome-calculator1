@@ -61,7 +61,7 @@ addNormalTomesBtn.addEventListener('click', function(){
 })
 
 addLevellingTomesBtn.addEventListener('click', function(){
-  let levellingValue = 15
+  let levellingValue = 20
   let displayValue = currentTomes += levellingValue
   tomeArray.push(levellingValue)
   tome.innerHTML = displayValue
