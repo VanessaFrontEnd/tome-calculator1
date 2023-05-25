@@ -12,6 +12,7 @@ body {
   background-color: #CCC1FF;
   background-position: center;
   background-blend-mode: luminosity;
+  max-width: 650px;
 }
 
 
