@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: boder-box;
+  background-image: url(https://i.pinimg.com/originals/47/9e/f0/479ef0f0afc972788a8fbeac1a8efb4e.jpg);
+  background-size: cover;
+  background-color: #CCC1FF;
+  background-position: center;
+  background-blend-mode: luminosity;
+}
+
+
+/*
+Other colors: #CCC1FF
+*/
+
+h1 {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+h2, h4 {
+  color: white;
+  text-shadow: 3px 1px 5px blue;
+}
+
+#logo-font {
+  font-family: 'runic-mt-condensed-regular';
+}
+
+
+main {
+   /* background-image: url(https://img2.finalfantasyxiv.com/f/b06f1d74ced11122445e0af01e2c09b5_284358f8eb4efc9095914e46798c6ab3fl0_640x873.jpg?1682995651); 
+    background-size: cover;
+    background-color: #CCC1FF;
+    background-position: center;
+    background-blend-mode: screen;
+  */
+    padding: 0 .5em 2em;
+    min-height: 40vh;
+}
+
+.main-tome {
+  border: 4px ridge blueviolet;
+  background-image: url(https://img2.finalfantasyxiv.com/f/b06f1d74ced11122445e0af01e2c09b5_284358f8eb4efc9095914e46798c6ab3fl0_640x873.jpg?1654463021); 
+  background-size: cover;
+  background-color: #CCC1FF;
+  background-position: center;
+  background-blend-mode: screen;
+  background-position: right 50% bottom 85%;
+  border-radius: 1rem;
+  padding: .2rem;
+}
+
+/* https://pbs.twimg.com/media/FgFyHMnXoAMZd9S?format=jpg&name=4096x4096 */
+
+button {
+  border: 1px solid black;
+  background: linear-gradient(to right, #CCC1FF, #FCF1FF);
+  border-radius: 6px;
+  padding: 5px 10px 5px 10px;
+  margin: .5rem;
+  margin-bottom: 10px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(180deg, #CCC1FF, #FCF1FF);
+  transform: scale(1.2);
+  transition: transform 250ms;
+}
+
+#total-tomes {
+  
+}
+
+#capped-tomes {
+  display: none;
+}
+
+#button-panel {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+}
+
+#add-roulette {
+  padding: .3rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+#roulette-chosen {
+  background-image: url(https://i.redd.it/9jia2yx3phz61.jpg); 
+  background-size: cover;
+  background-color: #CCC1FF;
+  background-position: center;
+  background-blend-mode: screen;
+  background-position: right 50% bottom 85%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  border: 4px ridge blueviolet;
+  padding: .5rem;
+}
