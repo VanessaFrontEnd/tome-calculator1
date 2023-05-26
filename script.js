@@ -57,7 +57,7 @@ add90dungeonBtn.addEventListener('click', function(){
   tomeArray.push(90dgnValue)
   tome.innerHTML = displayValue
   chosenRoulette.innerHTML += `
-  <strong>90 dungeons roulette added for ${90dgnValueValue} tomes.</strong><br>`
+  <strong>90 dungeons roulette added for ${90dgnValue} tomes.</strong><br>`
   console.log(currentTomes, "button clicked")
 })
 
