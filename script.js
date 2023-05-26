@@ -7,6 +7,7 @@ const addNormalTomesBtn = document.getElementById('normal-roulette')
 const addLevellingTomesBtn = document.getElementById('levelling-roulette')
 const addBeastTribeBtn = document.getElementById('daily-beast-tribe')
 const addMsqRoulette = document.getElementById('msq-roulette')
+const add90dungeonBtn = document.getElementById('90-roulette')
 
 const chosenRoulette = document.getElementById('roulette-chosen')
 
