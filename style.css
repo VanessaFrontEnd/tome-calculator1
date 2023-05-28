@@ -31,7 +31,7 @@ h2, h4 {
 }
 
 @font-face {
-    src: url("intrepid-regular.ttf");
+    src: url("../intrepid-regular.ttf");
     font-family: Intrepid;
 }
 
